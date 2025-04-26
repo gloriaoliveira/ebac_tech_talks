@@ -1,7 +1,6 @@
 {
   "name": "ebac_talks",
   "version": "1.0.0",
-
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js --no-cache",
     "build": "parcel build src/index.html --no-cache",
@@ -14,7 +13,9 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.0",
     "events": "^3.3.0",
-    "parcel": "^2.8.0",
-    "sharp": "^0.31.3"
+    "parcel": "^2.14.4"
+  },
+  "resolutions": {
+    "@parcel/optimizer-image": "2.0.0-rc.0"
   }
 }
