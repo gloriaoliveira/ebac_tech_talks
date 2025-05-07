@@ -17,5 +17,8 @@
   },
   "resolutions": {
     "@parcel/optimizer-image": "2.0.0-rc.0"
+  },
+  "dependencies": {
+    "sharp": "^0.34.1"
   }
 }
